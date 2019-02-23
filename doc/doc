@@ -1,0 +1,19 @@
+一、引入jar包请看pom
+
+二、配置文件
+    1.Struct2框架的配置文件
+        1)web.xml
+        2)struts.xml    （注解配置可以省略该文件）
+    2.Hibernate框架的配置文件
+        1)hibernate.cfg.xml （在ssh整合中该配置文件可以省略）
+        2)映射文件
+    3.Spring框架的配置文件
+        1)web.xml
+        2)applicationContext.xml
+
+三、包结构
+    * cn.imooc.ssh
+        * action
+        * service
+        * dao
+        * hbm
