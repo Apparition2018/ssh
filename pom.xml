@@ -20,49 +20,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-        <spring.version>4.3.25.RELEASE</spring.version>
+        <spring.version>4.3.26.RELEASE</spring.version>
         <aopalliance.version>1.0</aopalliance.version>
-        <struts2.versijon>2.5.22</struts2.versijon>
-        <hibernate.version>5.4.1.Final</hibernate.version>
+        <struts2.versijon>2.5.25</struts2.versijon>
+        <hibernate.version>5.4.23.Final</hibernate.version>
         <mysql.version>5.1.47</mysql.version>
         <c3p0.version>0.9.5.5</c3p0.version>
-        <slf4j.version>1.7.29</slf4j.version>
-        <commons-logging.version>1.2</commons-logging.version>
-        <junit.version>4.12</junit.version>
+        <slf4j.version>1.7.30</slf4j.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <dependencies>
         <!-- spring -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-tx</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
@@ -73,11 +42,6 @@
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -96,13 +60,6 @@
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-spring-plugin</artifactId>
-            <version>${struts2.versijon}</version>
-        </dependency>
-
-        <!-- struts2 -->
-        <dependency>
-            <groupId>org.apache.struts</groupId>
-            <artifactId>struts2-core</artifactId>
             <version>${struts2.versijon}</version>
         </dependency>
 
@@ -135,13 +92,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- commons-logging -->
-        <dependency>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-            <version>${commons-logging.version}</version>
-        </dependency>
-        
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
